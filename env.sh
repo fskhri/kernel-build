@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/realme-mt6785-devs/android_kernel_realme_mt6785
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/sarthakroy2002/kernel_realme_wasabi
 
 # Kernel Branch
-KERNEL_BRANCH=lineage-20
+KERNEL_BRANCH=R
 
 # The name of the device for which the kernel is built
 MODEL="Realme 7,6,6i, 6s, Narzo 20 Pro and Narzo 30"
