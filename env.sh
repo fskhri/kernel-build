@@ -14,7 +14,7 @@ DEVICE="MT6785"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=RM6785_defconfig
+DEFCONFIG=wasabi_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="Realme"
