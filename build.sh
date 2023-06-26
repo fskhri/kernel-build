@@ -172,6 +172,11 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	    then
 	       msg "|| Cloning Anykerne For HMP ||"
            git clone https://github.com/fskhri/AnyKernel3.git -b main AnyKernel3
+        elif [ $HMP = "n" ]
+        then
+           msg "|| Cloning Anykerne For EAS ||"
+           git clone https://github.com/fskhri/AnyKernel3.git -b main AnyKernel3
+        fi
         
 	if [ $BUILD_DTBO = 1 ]
 	then
