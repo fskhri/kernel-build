@@ -171,12 +171,7 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	    if [ $HMP = "y" ]
 	    then
 	       msg "|| Cloning Anykerne For HMP ||"
-           git clone https://github.com/fajar4561/Anykernel.git -b master AnyKernel3
-        elif [ $HMP = "n" ]
-        then
-           msg "|| Cloning Anykerne For EAS ||"
-           git clone https://github.com/fajar4561/Anykernel.git -b eas AnyKernel3
-        fi
+           git clone https://github.com/fskhri/AnyKernel3.git -b main AnyKernel3
         
 	if [ $BUILD_DTBO = 1 ]
 	then
@@ -186,7 +181,7 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	if [ $SPECTRUM = "y" ]
 	then
 	   msg "|| Cloning Spectrum Profil ||"
-	   git clone https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fajar4561/spectrum spectrum
+	   git clone https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/spectrum spectrum
 	fi
 }
 
