@@ -4,7 +4,7 @@
 KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/realme-mt6785-devs/android_kernel_realme_mt6785
 
 # Kernel Branch
-KERNEL_BRANCH=YorForgerStabl
+KERNEL_BRANCH=lineage-20
 
 # The name of the device for which the kernel is built
 MODEL="Realme 7,6,6i, 6s, Narzo 20 Pro and Narzo 30"
