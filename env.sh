@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/android_kernel_YorForger_mt6785
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/realme-mt6785-devs/android_kernel_realme_mt6785 -b ksu
 
 # Kernel Branch
 KERNEL_BRANCH=YorForgerStabl
