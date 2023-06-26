@@ -1,33 +1,33 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fajar4561/Kernel_Asus_SDM660
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/android_kernel_YorForger_mt6785
 
 # Kernel Branch
-KERNEL_BRANCH=R3
+KERNEL_BRANCH=YorForgerStabl
 
 # The name of the device for which the kernel is built
-MODEL="Asus Zenfone Max Pro M1"
+MODEL="Realme 7,6,6i, 6s, Narzo 20 Pro and Narzo 30"
 
 # The codename of the device
-DEVICE="X00TD"
+DEVICE="MT6785"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=X00TD_defconfig
+DEFCONFIG=RM6785_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="ASUSTek Computer Inc."
+MANUFACTURERINFO="Realme"
 
 # tambahkan changelog di anykernel
-CHANGELOGS=n
+CHANGELOGS=y
 
 # opsi spectrum "y" atau "n"
 SPECTRUM=y
 
 # Kernel Variant
 
-HMP=n
+HMP=y
 
 NAMA=Signature
 
@@ -40,13 +40,13 @@ BUILD_TYPE="Nightly"
 
 # Specify compiler.
 # 'clang' or 'clangxgcc' or 'gcc' or 'gcc49' , 'linaro & 'gcc2', clang2
-COMPILER=gcc49
+COMPILER=clang
 
 # Message on anykernel when installatio
 MESSAGE="just flash and forget"
 
 # KBUILD ENV
-K_USER=Thoreck
+K_USER=Fskhri
 K_HOST=Github
 K_VERSION=1
 
