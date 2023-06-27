@@ -33,7 +33,7 @@ NAMA=YorForgerKernel
 
 JENIS=BoreUP
 
-VARIAN=RUI 2
+VARIAN=RUI2
 
 # Build Type
 BUILD_TYPE="OFFICIAL"
