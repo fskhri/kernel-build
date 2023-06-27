@@ -19,8 +19,8 @@ jobs:
           echo ::set-output name=date::$(/bin/date -u "+%Y%m%d")
       - name: Build & Push
         run: |
-          git config --global user.name "${GITHUB_USER}"
-          git config --global user.email "${GITHUB_EMAIL}"
+          git config --global user.name fskhri
+          git config --global user.email fakhrijuanda88@gmail.com
           source env.sh
           echo "Cloning kernel"
           git clone --depth=1 $KERNEL_REPO -b $KERNEL_BRANCH kernel && cd kernel
