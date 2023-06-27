@@ -171,11 +171,11 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	    if [ $HMP = "y" ]
 	    then
 	       msg "|| Cloning Anykerne For HMP ||"
-           git clone https://github.com/fskhri/AnyKernel3.git -b main AnyKernel3
+           git clone https://github.com/YorForgerPrjkts/AnyKernel3.git -b main AnyKernel3
         elif [ $HMP = "n" ]
         then
            msg "|| Cloning Anykerne For EAS ||"
-           git clone https://github.com/fskhri/AnyKernel3.git -b main AnyKernel3
+           git clone https://github.com/YorForgerPrjkts/AnyKernel3.git -b main AnyKernel3
         fi
         
 	if [ $BUILD_DTBO = 1 ]
@@ -461,7 +461,7 @@ gen_zip() {
 		mv "$KERNEL_DIR"/out/arch/arm64/boot/dtbo.img AnyKernel3/dtbo.img
 	fi
 	cd AnyKernel3 || exit
-        cp -af anykernel.sh anykernel.sh
+        cp -af anykernel-real.sh anykernel.sh
         
 	sed -i "s/kernel.string=.*/kernel.string=$NAMA-$VARIAN/g" anykernel.sh
 	sed -i "s/kernel.for=.*/kernel.for=$JENIS/g" anykernel.sh
@@ -472,7 +472,7 @@ gen_zip() {
 	sed -i "s/build.date=.*/build.date=$DATE2/g" anykernel.sh
 
 
-	zip -r9 "$ZIPNAME" * -x .git README.md anykernel.sh .gitignore zipsigner* *.zip
+	zip -r9 "$ZIPNAME" * -x .git README.md anykernel-real.sh .gitignore zipsigner* *.zip
 
 	## Prepare a final zip variable
 	ZIP_FINAL="$ZIPNAME"
