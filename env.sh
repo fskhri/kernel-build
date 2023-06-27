@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/android_kernel_realme_mt6785
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/kernel_realme_RM6785
 
 # Kernel Branch
-KERNEL_BRANCH=lineage-20
+KERNEL_BRANCH=R
 
 # The name of the device for which the kernel is built
 MODEL="Realme 7/6/6i/6s/n30"
@@ -14,7 +14,7 @@ DEVICE="RM6785"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=RM6785_defconfig
+DEFCONFIG=yor_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="REALME"
