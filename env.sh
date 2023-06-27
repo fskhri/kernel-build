@@ -1,10 +1,10 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/sarthakroy2002/kernel_realme_wasabi
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/android_kernel_realme_RM6785
 
 # Kernel Branch
-KERNEL_BRANCH=R
+KERNEL_BRANCH=master
 
 # The name of the device for which the kernel is built
 MODEL="Realme 7,6,6i, 6s, Narzo 20 Pro and Narzo 30"
@@ -14,7 +14,7 @@ DEVICE="MT6785"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=wasabi_defconfig
+DEFCONFIG=RM6785_defconfig
 
 # Show manufacturer info
 MANUFACTURERINFO="Realme"
@@ -29,18 +29,18 @@ SPECTRUM=n
 
 HMP=y
 
-NAMA=Signature
+NAMA=YorForgerKernel
 
-JENIS=IV
+JENIS=BoreUP
 
-VARIAN=r3
+VARIAN=RUI 2
 
 # Build Type
-BUILD_TYPE="Nightly"
+BUILD_TYPE="OFFICIAL"
 
 # Specify compiler.
 # 'clang' or 'clangxgcc' or 'gcc' or 'gcc49' , 'linaro & 'gcc2', clang2
-COMPILER=clang
+COMPILER=clangxgcc
 
 # Message on anykernel when installatio
 MESSAGE="just flash and forget"
