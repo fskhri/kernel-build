@@ -23,7 +23,7 @@ MANUFACTURERINFO="Realme"
 CHANGELOGS=n
 
 # opsi spectrum "y" atau "n"
-SPECTRUM=y
+SPECTRUM=n
 
 # Kernel Variant
 
@@ -47,7 +47,7 @@ MESSAGE="just flash and forget"
 
 # KBUILD ENV
 K_USER=Fskhri
-K_HOST=Github
+K_HOST=YorForger
 K_VERSION=1
 
 
