@@ -20,7 +20,7 @@ DEFCONFIG=wasabi_defconfig
 MANUFACTURERINFO="Realme"
 
 # tambahkan changelog di anykernel
-CHANGELOGS=y
+CHANGELOGS=n
 
 # opsi spectrum "y" atau "n"
 SPECTRUM=y
