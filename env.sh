@@ -20,7 +20,7 @@ DEFCONFIG=yor_defconfig
 MANUFACTURERINFO="REALME"
 
 # tambahkan changelog di anykernel
-CHANGELOGS=n
+CHANGELOGS=y
 
 # opsi spectrum "y" atau "n"
 SPECTRUM=n
