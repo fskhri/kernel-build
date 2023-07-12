@@ -114,7 +114,7 @@ DATE2=$(TZ=Asia/Jakarta date +"%Y%m%d")
 	if [ $COMPILER = "clang" ]
 	then
 		msg "|| Cloning clang ||"
-		git clone --depth=1 https://gitlab.com/ZyCromerZ/sdclang-16.1.0.1 -b main clang
+		git clone --depth=1 https://gitlab.com/AnggaR96s/clang-gengkapak.git -b main clang
 		
     elif [ $COMPILER = "clang2" ]
     then
