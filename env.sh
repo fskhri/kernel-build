@@ -1,23 +1,23 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/kernel_realme_RM6785
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/YorForger_Plato_Xiaomi_Kernel
 
 # Kernel Branch
-KERNEL_BRANCH=R
+KERNEL_BRANCH=Stabl
 
 # The name of the device for which the kernel is built
-MODEL="Realme 7/6/6i/6s/n30"
+  MODEL="REDMI 12T"
 
 # The codename of the device
-DEVICE="RM6785"
+DEVICE="PLATO"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
 DEFCONFIG=yor_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="REALME"
+MANUFACTURERINFO="REDMI"
 
 # tambahkan changelog di anykernel
 CHANGELOGS=n
@@ -33,7 +33,7 @@ NAMA=YorForgerKernel
 
 JENIS=BoreUP
 
-VARIAN=RUI2
+VARIAN=
 
 # Build Type
 BUILD_TYPE="Nightly"
