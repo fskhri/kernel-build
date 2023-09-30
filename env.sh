@@ -1,23 +1,23 @@
 #! /bin/bash
 
 # Kernel Repo
-KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/YorForger_Plato_Xiaomi_Kernel
+KERNEL_REPO=https://"${GITHUB_USER}":"${GITHUB_TOKEN}"@github.com/fskhri/android_kernel_realme_mt6785
 
 # Kernel Branch
-KERNEL_BRANCH=Stabl
+KERNEL_BRANCH=lineage-20
 
 # The name of the device for which the kernel is built
-  MODEL="REDMI 12T"
+  MODEL="Realme 6"
 
 # The codename of the device
-DEVICE="PLATO"
+DEVICE="rmx 2002"
 
 # The defconfig which should be used. Get it from config.gz from
 # your device or check source
-DEFCONFIG=yor_defconfig
+DEFCONFIG=RM6785_defconfig
 
 # Show manufacturer info
-MANUFACTURERINFO="REDMI"
+MANUFACTURERINFO="REALME"
 
 # tambahkan changelog di anykernel
 CHANGELOGS=n
